@@ -4,6 +4,12 @@ Application that automatically capture freezing moment from wide angle then gene
 
 ## Requirements
 
+#### Python
+
+Python and some python dependent packages.
+
+Install dependencies using `pip install -r requirements.txt`
+
 #### [ExifTool by Phil Harvey](https://www.sno.phy.queensu.ca/~phil/exiftool/index.html)
 
 ExifTool is a platform-independent Perl library plus a command-line application for reading, writing and editing meta information in a wide variety of files.
