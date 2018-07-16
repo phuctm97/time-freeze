@@ -120,4 +120,4 @@ def upload_image_to_facebook(filename: str) -> bool:
             basename(__file__)))
     eprint(
         '[{}]: Please manually upload using result image at "{}"'.format(basename(__file__), absolute_path(filename)))
-    return True
+    return False

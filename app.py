@@ -17,4 +17,4 @@ images = [cv2.imread(src) for src in sample_letter]
 # process images
 succeeded, result_filename = process_images(images, 130)
 if succeeded:
-    print('Generated panorama "{}" and uploaded to facebook successfully'.format(absolute_path(result_filename)))
+    print('Generated panorama "{}" and uploaded to facebook successfully!'.format(absolute_path(result_filename)))
