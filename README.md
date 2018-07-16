@@ -26,3 +26,10 @@ On Windows, you will need **Git for Windows** package and also **MinGW** compile
 - Run Perl command to generate makefile: `perl Makefile.PL`.
 - Run make command to test: `make test` or `mingw32-make test` (on Windows).
 - Run make command to compile/run: `make install` or `mingw32-make install` (on Windows).
+
+##### Setup project
+Open `image_processing.py` then change value of `_EXIFTOOL` variable to your exiftool path or just run `app.py` with environment variable `EXIFTOOL` set correspondingly.
+
+## Run
+
+Execute `app.py` script with environment setup.
